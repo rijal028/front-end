@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+
+  nav {
+    position: fixed;
+  }
+
+  #itemnav {
+    gap: 10px;
+    font-size: 12px;
+  }
+
+  header h1 {
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+
+  #konten {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "kiri"
+      "kanan"
+      "bawah";
+  }
+
+  #kanan {
+    position: relative;
+    width: 100%;
+
+  }
+
+  #kontak {
+    flex-direction: column;
+  }
+
+  #artikeltotal {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+  }
+
+  .artikel {
+    min-width: 100%;
+    max-width: 40px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+
+  }
+
+  #bawah {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #kontak,
+  #masukan {
+    width: 100%;
+    height: 100%;
+
+  }
+}

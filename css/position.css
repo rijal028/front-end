@@ -1,0 +1,105 @@
+nav {
+    position: fixed
+}
+
+nav {
+    width: 100%;
+    height: 30px;
+}
+
+#itemnav {
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+#kontak {
+
+    position: relative;
+
+}
+
+#medsosbox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#konten {
+
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "kiri kanan"
+        "bawah bawah";
+}
+
+
+#bawah {
+
+    display: grid;
+    grid-template-rows: auto;
+    display: flex;
+    padding-top: 20px;
+}
+
+#bawah h2 {
+    color: white;
+
+
+}
+
+
+#kanan {
+    position: sticky;
+    top: 0;
+    grid-area: kanan;
+
+
+
+}
+
+#kiri {
+
+    position: relative;
+    grid-area: kiri;
+    margin-right: 0;
+    width: 100%;
+
+
+
+}
+
+#bawah {
+    display: flex;
+    grid-area: bawah;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+
+
+
+#artikelterkait h2 {
+    padding-top: 50px;
+    padding-left: 1px;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.artikel {
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+
+
+}

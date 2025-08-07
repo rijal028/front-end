@@ -1,0 +1,182 @@
+header h1 {
+
+    border-bottom-left-radius: 0px;
+
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+#konten {
+    background-color: #11253a;
+}
+
+nav {
+    height: 30px;
+    z-index: 20;
+}
+
+#perkenalan {
+    color: white;
+
+}
+
+
+#tentangsaya {
+    color: white;
+}
+
+#hasilpenelitian {
+    color: white;
+    padding: 5px;
+
+}
+
+#hasilpenelitian table,
+th,
+tr {
+
+    border: 1px white;
+
+
+}
+
+#konsep {
+
+    color: white;
+    background-color: #163353;
+    padding: 5px;
+}
+
+
+article {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.artikel {
+    flex-direction: column;
+    z-index: 2;
+
+    padding: 20px;
+}
+
+#artikeltotal {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+}
+
+
+
+
+
+#artikel1 {
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+#artikel2 {
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+#artikel3 {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#artikel4 {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#artikelterkait h2 {
+
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+
+#artikeltotal img {
+    border-radius: 10px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 40%;
+
+}
+
+
+
+.deskripsiartikel {
+    text-align: center;
+}
+
+#kontak {
+
+    border-radius: 5px;
+    display: grid;
+    background-color: rgb(6, 4, 97);
+    width: 50%;
+}
+
+#medsosbox {
+    border-radius: 10px;
+}
+
+#masukan {
+    background-color: #1a1a1a;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+#masukan form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#masukan input,
+#masukan textarea {
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#masukan textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+#masukan button {
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+nav {
+    transition: transform
+}
+
+nav a:hover {
+    background-color: grey;
+    scale: 1.2;
+    transform: 0.3s;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+
+
+#kontak {
+
+    transition: transform;
+
+}
+
+#medsosbox img:hover {
+    background-color: grey;
+    box-shadow: 0 0 10px white;
+    scale: 1.3;
+    transform: 0.3s;
+
+}
+
+article {
+    transition: transform;
+}
+
+.artikel h3:hover {
+    background-color: black;
+    box-shadow: 0 0 10px white;
+    scale: 1.2;
+    transform: 0.3s;
+    border-radius: 5px;
+}
+
+.artikel a img:hover {
+    box-shadow: 0 0 10px white;
+    scale: 1.2;
+    transform: 0.3s;
+}
+
+#konsep {
+    transition: transform;
+}
+
+#konsep h3:hover {
+    background-color: grey;
+    box-shadow: 0 0 10px white;
+    scale: 1.1;
+    transform: 0, 3s;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+#masukan button:hover {
+
+    background-color: grey;
+}
