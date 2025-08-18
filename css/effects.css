@@ -26,9 +26,23 @@ nav a:hover {
 
 }
 
-article {
-    transition: transform;
-}
+#artikeltotal {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+  }
+
+   .artikel {
+    min-width: 100%;
+    max-width: 40px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+
+  }
+
+
 
 .artikel h3:hover {
     background-color: black;

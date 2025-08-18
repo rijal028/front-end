@@ -103,3 +103,46 @@ h1 {
 
 
 }
+
+#forthescard {
+    position: fixed;
+    text-align: right;
+    display: none;
+    z-index: 99;
+}
+
+#forthescard button {
+    position: sticky;
+}
+
+#cognitifcard {
+    position: fixed;
+    text-align: right;
+    display: none;
+    z-index: 99;
+}
+
+#cognitifcard button {
+    position: sticky;
+}
+
+#awscard {
+    position: fixed;
+    text-align: right;
+    display: none;
+    z-index: 99;
+}
+
+#awscard button {
+    position: sticky;
+}
+#cerberumcard {
+    position: fixed;
+    text-align: right;
+    display: none;
+    z-index:99;
+}
+
+#cerberumcard button {
+    position: sticky;
+}

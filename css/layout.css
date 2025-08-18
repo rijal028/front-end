@@ -64,10 +64,11 @@ article {
 }
 
 #artikeltotal {
-    height: 100%;
+    height: 50%;
     width: 100%;
     padding: 20px;
     background-color: black;
+
 }
 
 
@@ -99,10 +100,11 @@ article {
 #artikelterkait h2 {
 
     background-color: black;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     color: white;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30%;
     padding-bottom: 40px;
 
 
@@ -179,4 +181,105 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+#forthescard {
+    background-color: rgb(19, 14, 14);
+    color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#forthescard h3 {
+    text-align: center;
+    font-size: 100px;
+}
+
+#forthescard p {
+    padding-top: 100px;
+    margin: 100px;
+}
+
+#forthescard button {
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
+
+#cognitifcard {
+    background-color: rgb(19, 14, 14);
+    color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#cognitifcard h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#cognitifcard p {
+    padding-top: 100px;
+    margin: 100px;
+}
+
+#cognitifcard button {
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
+
+#awscard {
+    background-color: rgb(19, 14, 14);
+    color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#awscard h3 {
+    text-align: center;
+    font-size: 50px;
+}
+#awscard p {
+    padding-top: 100px;
+    margin: 100px;
+}
+
+#awscard button {
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
+
+#cerberumcard {
+    background-color: rgb(19, 14, 14);
+    color: white;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#cerberumcard h3 {
+    text-align: center;
+    font-size: 50px;
+}
+#cerberumcard p {
+    padding-top: 100px;
+    margin: 100px;
+}
+#cerberumcard button {
+    border-radius: 20px;
+    color: white;
+    background-color: red;
 }
